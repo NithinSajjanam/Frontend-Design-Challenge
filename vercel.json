@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd fenrir-frontend && npm run build",
+  "outputDirectory": "fenrir-frontend/dist",
+  "framework": "vite",
+  "installCommand": "cd fenrir-frontend && npm install"
+}
+
