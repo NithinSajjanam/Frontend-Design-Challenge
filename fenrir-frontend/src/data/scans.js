@@ -1,0 +1,78 @@
+export default [
+  {
+    id: 1,
+    name: "Web App Servers",
+    type: "Greybox",
+    status: "Completed",
+    progress: 100,
+    critical: 12,
+    high: 23,
+    medium: 18,
+    low: 4,
+    lastScan: "4d ago",
+    target: "https://webapp.example.com",
+    startTime: "2024-01-15T10:00:00Z",
+    endTime: "2024-01-15T14:30:00Z"
+  },
+  {
+    id: 2,
+    name: "API Gateway",
+    type: "Blackbox",
+    status: "Running",
+    progress: 67,
+    critical: 3,
+    high: 8,
+    medium: 12,
+    low: 5,
+    lastScan: "2h ago",
+    target: "https://api.example.com",
+    startTime: "2024-01-19T08:00:00Z",
+    endTime: null
+  },
+  {
+    id: 3,
+    name: "Internal Network",
+    type: "Whitebox",
+    status: "Completed",
+    progress: 100,
+    critical: 5,
+    high: 15,
+    medium: 22,
+    low: 10,
+    lastScan: "1w ago",
+    target: "192.168.1.0/24",
+    startTime: "2024-01-12T09:00:00Z",
+    endTime: "2024-01-12T18:45:00Z"
+  },
+  {
+    id: 4,
+    name: "Mobile Backend",
+    type: "Greybox",
+    status: "Queued",
+    progress: 0,
+    critical: 0,
+    high: 0,
+    medium: 0,
+    low: 0,
+    lastScan: "Never",
+    target: "https://mobile-api.example.com",
+    startTime: null,
+    endTime: null
+  },
+  {
+    id: 5,
+    name: "Cloud Infrastructure",
+    type: "Blackbox",
+    status: "Completed",
+    progress: 100,
+    critical: 8,
+    high: 12,
+    medium: 15,
+    low: 6,
+    lastScan: "3d ago",
+    target: "aws://production",
+    startTime: "2024-01-16T11:00:00Z",
+    endTime: "2024-01-16T16:20:00Z"
+  }
+];
+
